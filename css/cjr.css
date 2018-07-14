@@ -156,6 +156,18 @@
   transition:all 0.85s ease-in-out;
   border-radius: 5px;
 
+} 
+.bg-btn {
+  background-color: #14141E !important;
+  -webkit-transition:all 0.85s ease-in-out;
+  -moz-transition:all 0.85s ease-in-out;
+  -o-transition:all 0.85s ease-in-out;
+  -ms-transition:all 0.85s ease-in-out;
+  color: #fff;
+  transition:all 0.85s ease-in-out;
+}
+.bg-btn:hover {
+  background-color: #123088 !important;
 }
 .navbar-nav .nav-item {
   -webkit-transition:all 0.35s ease-in-out;
