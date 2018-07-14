@@ -21,31 +21,24 @@
     box-shadow: 0 4px 18px 0 rgba(0,0,0,.12),0 7px 10px -5px rgba(0,0,0,.15);
 }
 
-.header-filter::after, .header-filter::before {
-    position: absolute;
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    display: block;
-    left: 0;
-    top: 0;
-    content: "";
-}
-.header-filter::before {
-    /*background: rgba(0,0,0,.5);*/
-  /*background: linear-gradient(45deg, rgba(250,0,58, 0.8) 0%, rgba(125, 46, 185, 0.45) 100%);*/
-  /*background: -moz-linear-gradient(135deg, rgba(250,0,58, 0.8) 0%, rgba(125, 46, 185, 0.45) 100%);*/
-  /*background: -webkit-linear-gradient(135deg, rgba(250,0,58, 0.8) 0%, rgba(125, 46, 185, 0.45) 100%);*/
-
-}
-
-.header-banner {
-  background: linear-gradient(45deg, rgba(250,0,58, 0.8) 0%, rgba(125, 46, 185, 0.45) 100%), url('../images/background/masthead-bg1-e50d4ae8ab0db11ac620cb551c351fb5ac97cb60a6dbe813ac1f752f91c548ae.png') no-repeat center center fixed;;
+/*.header-banner {
+  background: linear-gradient(45deg, rgba(18,48,136, 0.8) 0%, rgba(125, 46, 185, 0.45) 100%) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}*/
+
+.masthead {
+    background: url("../images/background/masthead-bg1-e50d4ae8ab0db11ac620cb551c351fb5ac97cb60a6dbe813ac1f752f91c548ae.png") no-repeat center top #123088;
+        background-size: auto auto;
+    background-size: 1164px auto;
+    color: #fff;
+    padding: 120px 0 100px;
+    margin-top: -35px;
+    transform: translate3d(0px, 0px, 0px);
 }
+
 
 
 
@@ -159,6 +152,7 @@
   -moz-transition:all 0.85s ease-in-out;
   -o-transition:all 0.85s ease-in-out;
   -ms-transition:all 0.85s ease-in-out;
+  color: #fff;
   transition:all 0.85s ease-in-out;
   border-radius: 5px;
 
@@ -203,8 +197,8 @@
 
 }
 .navbar {
-  color: #fff;
-  background-color: #1C1B29 !important;
+  color: #1C1B29;
+  /*background-color: #1C1B29 !important;*/
 }
 .first-slide {
   background: linear-gradient(rgba(50,49,62, 0.8), rgba(28,27,41, 0.2)), url('../images/banner.jpg') no-repeat center center fixed;;
