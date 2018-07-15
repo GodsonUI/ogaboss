@@ -58,7 +58,7 @@
 }
 
 .bg-default {
-  background-color: #1d1288 !important;
+  background-color: rgba(18,48,136, 0.9) !important;
 }
 
 /* fallback */
